@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f0f8ff;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-app {
+  width: 350px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: none;
+  padding-bottom: 10px;
+}
+
+.search-form-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #add8e6;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  color: #2d2d2d;
+  transition: border-bottom 0.3s ease;
+}
+
+.search-form-button {
+  padding: 10px 20px;
+  background-color: #add8e6;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  color: #fff;
+}
+.search-form-button:hover {
+  background-color: #d26f6f;
+}
+.weather-app-data {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+strong {
+  color: #d26f6f;
+}
+
+.weather-app-main {
+  margin-bottom: 20px;
+}
+
+.weather-app-city {
+  font-size: 29px;
+  color: #333;
+}
+
+.weather-app-details {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #666;
+}
+
+.weather-app-temperature-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-app-temperature {
+  font-size: 60px;
+  font-weight: bold;
+  color: #333;
+  margin-right: 10px;
+}
+
+.weather-app-unit {
+  font-size: 19px;
+  color: #333;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.weather-forecast-day {
+  text-align: center;
+  border-top: 1px solid #add8e6;
+}
+
+.weather-forecast-date {
+  font-size: 14px;
+  color: #333;
+}
+
+.weather-forecast-icon {
+  margin-top: 10px;
+  width: 40px;
+}
+
+.weather-forecast-temperatures {
+  margin-top: 5px;
+  color: #d26f6f;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  font-family: "PT Mono", monospace;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #add8e6;
+}
+
+footer a:hover {
+  color: #add8e6;
+}
